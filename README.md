@@ -18,3 +18,7 @@ https://hub.docker.com/repository/docker/littlelucidlynx/custom-nginx/general
 # Задание 5
 Compose понимает файлы compose.yaml и docker-compose.yaml. По умолчанию используется файл compose.yaml из текущего расположения. Если присутствуют оба файла, приоритетным является compose.yaml
 
+При удалении одного из манифестов Compose предупреждает, что один из контейнеров утерял связь с родителем (манифестом) и предлагает запуск с флагом --remove-orphans. Если манифест был удален или перемещен, связанный с ним контейнер будет удален
+
+![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Compose001.png)
+![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer001.png)
