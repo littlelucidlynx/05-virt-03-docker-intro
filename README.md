@@ -20,6 +20,20 @@ Compose понимает файлы compose.yaml и docker-compose.yaml. По у
 
 При удалении одного из манифестов Compose предупреждает, что один из контейнеров утерял связь с родителем (манифестом) и предлагает запуск с флагом --remove-orphans. Если манифест был удален или перемещен, связанный с ним контейнер будет удален
 
+```
+version: "3"
+include:
+  - docker-compose.yaml
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    network_mode: host
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
+
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Compose001.png)
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer001.png)
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer002.png)
