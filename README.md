@@ -13,7 +13,7 @@ https://hub.docker.com/repository/docker/littlelucidlynx/custom-nginx/general
 # Задание 4
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Docker003.png)
 
-Контейнер запущен с пробросом 8080 порта хоста к 80 порту контейнера, который слушает nginx. После изменений изменений nginx слушает порт 81, который с хоста не проброшен
+Контейнер запущен с пробросом 8080 порта хоста к 80 порту контейнера, который слушает nginx. После изменений nginx слушает порт 81, который с хоста не проброшен
 
 # Задание 5
 Compose понимает файлы compose.yaml и docker-compose.yaml. По умолчанию используется файл compose.yaml из текущего расположения. Если присутствуют оба файла, приоритетным является compose.yaml. Для запуска обоих необходимо использовать include
