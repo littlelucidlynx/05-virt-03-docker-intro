@@ -22,3 +22,5 @@ Compose понимает файлы compose.yaml и docker-compose.yaml. По у
 
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Compose001.png)
 ![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer001.png)
+![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer002.png)
+![Image alt](https://github.com/littlelucidlynx/05-virt-03-docker-intro/raw/main//Screen/Portainer003.png)
